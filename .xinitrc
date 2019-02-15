@@ -55,5 +55,4 @@ twm &
 #exec xterm -geometry 80x66+0+0 -name login
 ~/.fehbg &
 compton &
-mpd &
 exec i3

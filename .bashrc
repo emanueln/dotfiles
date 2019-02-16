@@ -9,8 +9,7 @@ alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 [[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
+neofetch
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"

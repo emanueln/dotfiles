@@ -12,7 +12,7 @@ order += "load"
 order += "cpu_temperature 0"
 order += "disk /"
 order += "disk /home"
-order += "ethernet enp25s0"
+order += "ethernet enp0s25"
 order += "wireless wlp12s0"
 order += "volume master"
 order += "battery 1"
@@ -35,7 +35,7 @@ disk "/home" {
         format = "/home/ %free Free"
 }
 
-ethernet enp25s0 {
+ethernet enp0s25 {
         format_up = "%ip"
         format_down = "Disconnected"
 }

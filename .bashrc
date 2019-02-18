@@ -11,8 +11,4 @@ PS1='[\u@\h \W]\$ '
 
 neofetch
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
-
-source $HOME/.rvm/scripts/rvm
 alias config='/usr/bin/git --git-dir=/home/emanuel/dotfiles --work-tree=/home/emanuel'

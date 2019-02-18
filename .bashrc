@@ -11,4 +11,5 @@ PS1='[\u@\h \W]\$ '
 
 neofetch
 
+alias tv='cd /mnt/nfs/Video/TV/'
 alias config='/usr/bin/git --git-dir=/home/emanuel/dotfiles --work-tree=/home/emanuel'

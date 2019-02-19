@@ -56,4 +56,5 @@ twm &
 ~/.fehbg &
 mpd &
 redshift &
+nm-applet &
 exec i3
